@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-lg-6 offset-lg-3 form-wrapper"
+      >
+        <h2>
+          Add New Customers
+        </h2>
+        <form
+          action="#"
+        >
+          <div
+            class="form-group"
+          >
+            <label
+              for="firstname"
+            >
+              First Name
+            </label>
+            <input
+              class="form-control"
+              name="firstname"
+              placeholder="First Name"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              for="lastname"
+            >
+              Last Name
+            </label>
+            <input
+              class="form-control"
+              name="lastname"
+              placeholder="Last Name"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              for="username"
+            >
+              Address
+            </label>
+            <input
+              class="form-control"
+              name="address"
+              placeholder="Address"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              for="state"
+            >
+              State
+            </label>
+            <select
+              class="form-control"
+              name="state"
+              placeholder="State"
+            >
+              <option
+                default=""
+                value="California"
+              >
+                California
+              </option>
+              <option
+                value="Texas"
+              >
+                Texas
+              </option>
+              <option
+                value="Florida"
+              >
+                Florida
+              </option>
+              <option
+                value="Washington"
+              >
+                Washington
+              </option>
+            </select>
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              for="city"
+            >
+              City
+            </label>
+            <select
+              class="form-control"
+              name="city"
+              placeholder="City"
+            >
+              <option
+                default=""
+                value="San Jose"
+              >
+                San Jose
+              </option>
+              <option
+                value="Cupertino"
+              >
+                Cupertino
+              </option>
+              <option
+                value="Los Angeles"
+              >
+                Los Angeles
+              </option>
+              <option
+                value="San Diego"
+              >
+                San Diego
+              </option>
+            </select>
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              for="email"
+            >
+              Email
+            </label>
+            <input
+              class="form-control"
+              name="email"
+              placeholder="Email"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              for="phone"
+            >
+              Phone
+            </label>
+            <input
+              class="form-control"
+              name="phone"
+              placeholder="Phone"
+              type="phone"
+              value=""
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <button
+              class="btn btn-primary"
+              type="submit"
+            >
+              Add User
+            </button>
+             
+            <button
+              class="btn btn-secondary"
+              type="reset"
+            >
+              Reset
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

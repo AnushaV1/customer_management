@@ -1,0 +1,46 @@
+###
+POST http://localhost:3000/customers
+Content-Type: application/json
+
+{
+      "firstname": "Tommy",
+      "lastname": "Mark",
+      "address": "476 5th street",
+      "state": "California",
+      "city": "San Jose",
+      "email":"tom123@gmail.com",
+      "phone":"4459241123"
+}
+
+
+
+### For all customers 
+GET http://localhost:3000/customers/
+Content-Type: application/json
+
+
+### Single Customer
+GET http://localhost:3000/customers/customerId
+Content-Type: application/json
+
+
+
+###
+PATCH http://localhost:3000/customers/customerId
+Content-Type: application/json
+{
+     "firstname": "Tom",
+      "lastname": "Cruz",
+      "address": "489 7th street",
+      "state": "California",
+      "city": "San Jose",
+      "email":"tom123@gmail.com",
+      "phone":"4359240123",   
+}
+
+
+###
+DELETE http://localhost:3000/customers/customerId
+Content-Type: application/json
+
+

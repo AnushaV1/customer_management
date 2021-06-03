@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div>
+      <nav
+        class="navbar navbar-expand-md navbar-dark bg-dark"
+      >
+        <div
+          class="container-fluid"
+        >
+          <div
+            class="navbar-header"
+          >
+            <a
+              aria-current="page"
+              class="navbar-brand active"
+              href="/"
+            >
+              Customer Management
+            </a>
+          </div>
+          <ul
+            class="nav navbar-nav navbar-right"
+          >
+            <li
+              class="nav-item"
+            >
+              <a
+                href="/newcustomers"
+              >
+                Add New Customer
+              </a>
+            </li>
+            <li
+              class="nav-item"
+            >
+              <a
+                href="/listcustomers"
+              >
+                List Customers
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div>
+      <section
+        class="Home col-md-12 p-0"
+      >
+        <div
+          class="banner container-fluid text-center text-light m-0 p-5"
+        >
+          <div
+            class="content-wrapper mb-5"
+          >
+            <p
+              class="lead"
+            >
+              Customer Management in one convenient place
+            </p>
+            <a
+              class="btn btn-primary btn-lg px-5 py-3 my-5"
+              href="/newcustomers"
+            >
+              Add New Customer
+            </a>
+             
+            <a
+              class="btn btn-primary btn-lg px-5 py-3 my-5"
+              href="/listcustomers"
+            >
+              List Customers
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</DocumentFragment>
+`;

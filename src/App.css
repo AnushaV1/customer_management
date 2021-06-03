@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.form-control {
+  text-align: start;
+  margin-bottom: 0;
+}
+
+.error {
+  color: red;
+  text-align: start;
+  
+}
+
+table {
+  max-width: 100%;
+  border: none;
+  border-spacing: 0;
+  text-align: left;
+  overflow-x: hidden;
+}
+th, tr {
+width:10%;
+}
