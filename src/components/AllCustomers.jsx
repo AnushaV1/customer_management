@@ -84,7 +84,7 @@ function DefaultColumnFilter({
 
 
 
-function AllCustomers1() {
+function AllCustomers() {
   const [data, setData] = useState(Customers);
   const filterTypes = useMemo(
     () => ({
@@ -238,4 +238,4 @@ function AllCustomers1() {
   )
 }
 
-export default AllCustomers1;
+export default AllCustomers;
